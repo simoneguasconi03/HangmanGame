@@ -77,5 +77,4 @@ public class HangmanGameGuess
         Assert.True(_game.IsOver);
         Assert.Equal(GameResultEnum.Won, _game.Result);
     }
-
 }
