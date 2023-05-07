@@ -4,7 +4,6 @@ namespace HangmanGame.Core.Validators;
 
 public static partial class GuessCharValidator
 {
-
     [GeneratedRegex("^[A-Z]$")]
     private static partial Regex GuessCharRegex();
 
