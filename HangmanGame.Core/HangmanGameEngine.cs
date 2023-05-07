@@ -4,13 +4,13 @@ using HangmanGame.Core.Validators;
 
 namespace HangmanGame.Core;
 
-public partial class HangmanGame
+public partial class HangmanGameEngine
 {
     private readonly string _secretWord;
     private const char _maskChar = '_';
     protected const int initialGuesses = 5;
 
-    public HangmanGame(string secretWord = "secret")
+    public HangmanGameEngine(string secretWord = "secret")
     {
         _secretWord = secretWord.ToUpperInvariant();
     }

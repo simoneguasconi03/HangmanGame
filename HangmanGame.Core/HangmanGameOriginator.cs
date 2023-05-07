@@ -1,6 +1,6 @@
 ﻿namespace HangmanGame.Core;
 
-public class HangmanGameOriginator : HangmanGame
+public class HangmanGameOriginator : HangmanGameEngine
 {
     public HangmanGameMemento CreateSetPoint()
     {
